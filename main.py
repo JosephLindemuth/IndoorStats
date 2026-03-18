@@ -252,6 +252,7 @@ def scrape_schedule(league_url, league_name):
 # ── Step 3: Run team scraper ───────────────────────────────────────────────────────
 all_leagues = []
 all_rows = []  # flat rows for CSV
+all_games = []
 
 for url in LEAGUE_URLS:
     result = scrape_teams(url)
@@ -276,9 +277,7 @@ for url in LEAGUE_URLS:
     print()
 
 # ── Step 3.1: Run game scraper ───────────────────────────────────────────────────────
-all_games = []
 
-for url in LEAGUE_URLS:
     # Scrape schedule too
     league_name_for_schedule = result["league"] if result else url.split("/")[-1]
     games = scrape_schedule(url, league_name_for_schedule)
