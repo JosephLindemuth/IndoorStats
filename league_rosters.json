@@ -1,0 +1,268 @@
+[
+  {
+    "league": "2024 Indoor League",
+    "url": "https://bluegrassultimate.org/e/2024-indoor-league",
+    "teams": [
+      {
+        "team": "Nuclear Narwhals",
+        "players": [
+          {
+            "name": "Kayla DeLon",
+            "roles": "player"
+          },
+          {
+            "name": "Adam  Houk",
+            "roles": "player"
+          },
+          {
+            "name": "Alex Wade",
+            "roles": "captain, player"
+          },
+          {
+            "name": "Bryan Witheril",
+            "roles": "player"
+          },
+          {
+            "name": "Carter Malott",
+            "roles": "player"
+          },
+          {
+            "name": "Chris Empie",
+            "roles": "player"
+          },
+          {
+            "name": "Evan Caldwell",
+            "roles": "player"
+          },
+          {
+            "name": "James Moore",
+            "roles": "admin, chaperone, player, spirit captain"
+          },
+          {
+            "name": "Jeremy DeLon",
+            "roles": "player"
+          },
+          {
+            "name": "Josiah Noble",
+            "roles": "player"
+          },
+          {
+            "name": "Liam S",
+            "roles": "player"
+          },
+          {
+            "name": "Rob Gillispie",
+            "roles": "player"
+          },
+          {
+            "name": "Trevor Smith",
+            "roles": "player"
+          },
+          {
+            "name": "Tyler Karnes",
+            "roles": "player"
+          },
+          {
+            "name": "Wyatt Driskell",
+            "roles": "player"
+          }
+        ]
+      },
+      {
+        "team": "Reindeer Fight Club",
+        "players": [
+          {
+            "name": "Margaret Blair",
+            "roles": "captain, player, spirit captain"
+          },
+          {
+            "name": "Adam Garner",
+            "roles": "player"
+          },
+          {
+            "name": "Diego  Farfan",
+            "roles": "player"
+          },
+          {
+            "name": "Hobie Dotson",
+            "roles": "player"
+          },
+          {
+            "name": "JJ !",
+            "roles": "captain, player"
+          },
+          {
+            "name": "Joey Neuzel Neuzel",
+            "roles": "player"
+          },
+          {
+            "name": "Joseph Lindemuth",
+            "roles": "player"
+          },
+          {
+            "name": "Joshua Jackson",
+            "roles": "player"
+          },
+          {
+            "name": "Kendrick Yuen",
+            "roles": "player"
+          },
+          {
+            "name": "Kene 100%",
+            "roles": "player"
+          },
+          {
+            "name": "Matt McMackin",
+            "roles": "player"
+          },
+          {
+            "name": "Matthew John",
+            "roles": "player"
+          },
+          {
+            "name": "Owen Woodward",
+            "roles": "player"
+          },
+          {
+            "name": "Reed Brixey",
+            "roles": "player"
+          },
+          {
+            "name": "Tadhg Young",
+            "roles": "player"
+          }
+        ]
+      },
+      {
+        "team": "Snow Zebra (T2)",
+        "players": [
+          {
+            "name": "Laurel Shepherd",
+            "roles": "player"
+          },
+          {
+            "name": "Andrew Shields",
+            "roles": "player"
+          },
+          {
+            "name": "Asher Finkel",
+            "roles": "player"
+          },
+          {
+            "name": "Blake McKinney",
+            "roles": "player"
+          },
+          {
+            "name": "Brennen Clark",
+            "roles": "player"
+          },
+          {
+            "name": "Clay Caylor",
+            "roles": "player"
+          },
+          {
+            "name": "Duane Robbins",
+            "roles": "player"
+          },
+          {
+            "name": "Gabriel Knowles",
+            "roles": "player"
+          },
+          {
+            "name": "Greg Leach",
+            "roles": "captain, player"
+          },
+          {
+            "name": "Jake Montgomery",
+            "roles": "player"
+          },
+          {
+            "name": "Jesse McInturf",
+            "roles": "player"
+          },
+          {
+            "name": "Jonah Compton",
+            "roles": "player"
+          },
+          {
+            "name": "Nate Knowles",
+            "roles": "player"
+          },
+          {
+            "name": "Spencer Barrios",
+            "roles": "player"
+          },
+          {
+            "name": "Thomas Iannarelli",
+            "roles": "player"
+          }
+        ]
+      },
+      {
+        "team": "Winter Wonderland",
+        "players": [
+          {
+            "name": "Halie McNeil",
+            "roles": "captain, player, spirit captain, volunteer"
+          },
+          {
+            "name": "Ansel Erhardt",
+            "roles": "player"
+          },
+          {
+            "name": "Brandon Guyton",
+            "roles": "player"
+          },
+          {
+            "name": "Bryce Talbert",
+            "roles": "player"
+          },
+          {
+            "name": "Clay Leach",
+            "roles": "captain, player"
+          },
+          {
+            "name": "Cole Bernstein",
+            "roles": "player"
+          },
+          {
+            "name": "Colin Winter",
+            "roles": "player"
+          },
+          {
+            "name": "David Durrance",
+            "roles": "player"
+          },
+          {
+            "name": "Greg Erhardt",
+            "roles": "player"
+          },
+          {
+            "name": "Joshua Wu",
+            "roles": "player"
+          },
+          {
+            "name": "Justin Colón",
+            "roles": "player"
+          },
+          {
+            "name": "Mason Montgomery",
+            "roles": "player"
+          },
+          {
+            "name": "Nathan Meade",
+            "roles": "player"
+          },
+          {
+            "name": "Paul Vincelli",
+            "roles": "player"
+          },
+          {
+            "name": "Vanderley Adolfo Guerrero Pérez",
+            "roles": "player"
+          }
+        ]
+      }
+    ]
+  }
+]
