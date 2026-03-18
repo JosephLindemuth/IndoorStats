@@ -286,8 +286,8 @@ body {
   border-bottom: 2px solid var(--green-turf);
 }
 .stats-table th.col-stat { text-align: right; }
-.stats-table th.col-name { min-width: 180px; }
-.stats-table th.col-league { min-width: 160px; }
+.stats-table th.col-name { min-width: 120px; }
+.stats-table th.col-league { min-width: 100px; }
 
 .stats-table tbody tr {
   border-bottom: 1px solid rgba(45,94,48,0.4);
@@ -687,11 +687,58 @@ body {
 /* ══════════════════════════════════════════════
    RESPONSIVE
 ══════════════════════════════════════════════ */
-@media (max-width: 600px) {
-  #app { padding: 1rem; }
+@media (max-width: 640px) {
+  #app { padding: 0.75rem; }
   .header-inner { padding: 0.5rem 1rem; }
   .game-card { grid-template-columns: 1fr; gap: 0.4rem; }
-  .alpha-player-list { grid-template-columns: 1fr 1fr; }
+
+  /* Allow table wrappers to scroll horizontally only if truly necessary */
+  #teams-table-wrapper,
+  #players-list-wrapper > div {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Shrink table text and padding */
+  .stats-table { font-size: 0.82rem; }
+
+  .stats-table th {
+    font-size: 0.72rem;
+    padding: 0.5rem 0.35rem;
+    white-space: normal;      /* wrap header text instead of forcing wide columns */
+    word-break: break-word;
+    line-height: 1.2;
+    max-width: 56px;
+    vertical-align: bottom;  /* align wrapped headers to bottom so numbers line up */
+  }
+
+  /* Hide sort arrows on small screens to reclaim space */
+  .sort-arrow { display: none; }
+
+  .stats-table td {
+    padding: 0.45rem 0.35rem;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+
+  /* Name column: allow wrapping, constrain width */
+  .stats-table td.col-name {
+    white-space: normal;
+    word-break: break-word;
+    max-width: 100px;
+    min-width: 70px;
+  }
+
+  /* Season pills: wrap text instead of pushing table wide */
+  .league-pill {
+    font-size: 0.72rem;
+    padding: 0.1rem 0.3rem;
+    max-width: 90px;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.2;
+    display: inline-block;
+  }
 }
 
 /* ══════════════════════════════════════════════
